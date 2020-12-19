@@ -92,12 +92,4 @@ public interface IFile {
 	 */
 	@SerializedAccessorName("priority")
 	public int getPriority();
-	
-	/**
-	 * Gets the download link to this file
-	 * @return A download link that the user can paste into their browser and have work
-	 */
-	@SerializedAccessorName("download-link")
-	public String getDownloadLink();
-	
 }

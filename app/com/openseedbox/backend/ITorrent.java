@@ -142,13 +142,6 @@ public interface ITorrent {
 	@SerializedAccessorName("trackers") public List<ITracker> getTrackers();
 	
 	/**
-	 * Gets a download link that the user can paste into their browser and
-	 * have it download the contents of the torrent, as a zip
-	 * @return The zip download link
-	 */
-	@SerializedAccessorName("zip-download-link") public String getZipDownloadLink();
-	
-	/**
 	 * Gets the ratio of uploaded bytes / downloaded bytes
 	 * @return The ratio (literally, uploadedBytes / downloadedBytes) as a double
 	 */
