@@ -133,14 +133,14 @@ public interface ITorrentBackend {
 	 * @param hash The torrent hash
 	 * @return A list of ITracker objects, each one represents a tracker
 	 */
-	public List<ITracker> getTorrentTrackers(String hash);
+	//public List<ITracker> getTorrentTrackers(String hash);
 	
 	/**
 	 * Gets tracker information for the specified torrents
 	 * @param hashes The hashes of the torrents you want tracker information for
 	 * @return A Map, the key is a torrent hash and the value is the list of trackers for that torrent
 	 */
-	public Map<String, List<ITracker>> getTorrentTrackers(List<String> hashes);	
+	//public Map<String, List<ITracker>> getTorrentTrackers(List<String> hashes);	
 	
 	
 	/**
