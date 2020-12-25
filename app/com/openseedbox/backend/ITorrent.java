@@ -139,7 +139,7 @@ public interface ITorrent {
 	 * Gets a list of the trackers in a torrent
 	 * @return The list of trackers
 	 */
-	@SerializedAccessorName("trackers") public List<ITracker> getTrackers();
+	//@SerializedAccessorName("trackers") public List<ITracker> getTrackers();
 	
 	/**
 	 * Gets the ratio of uploaded bytes / downloaded bytes
